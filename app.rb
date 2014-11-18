@@ -49,7 +49,7 @@ get %r{/(\d+)/(\d+)} do
     https://farm8.staticflickr.com/7375/9453353633_89ff6eb819_k.jpg
   }
   cache_control :public, :max_age => 0
-  redirect "#{request.env['rack.url_scheme']}://#{thumb_url(photos.sample, { :width => params[:captures][0], :height => params[:captures][1], :smart => true })}", 302
+  redirect "#{request.env['rack.url_scheme']}://#{thumb_url(photos.sample, { :width => params[:captures][0], :height => params[:captures][1], :smart => true })}", 200
 end
 
   # Process an image url, stolen from our middleman gem
