@@ -48,7 +48,7 @@ get %r{/(\d+)/(\d+)} do
     https://farm4.staticflickr.com/3822/9456134124_e2a00b6cae_k.jpg
     https://farm8.staticflickr.com/7375/9453353633_89ff6eb819_k.jpg
   }
-  cache_control :public, :max_age => 0
+  cache_control :no_store, :no_cache, :must_revalidate
   redirect "#{request.env['rack.url_scheme']}://#{thumb_url(photos.sample, { :width => params[:captures][0], :height => params[:captures][1], :smart => true })}", 303
 end
 
