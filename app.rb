@@ -40,7 +40,6 @@ get %r{/(\d+)/(\d+)} do
     https://farm3.staticflickr.com/2902/14538715934_aa950b14be_o.jpg
     https://farm6.staticflickr.com/5513/14353580610_cefbc4b2f1_o.jpg
     https://farm6.staticflickr.com/5537/14538734074_c1cec31bb7_o.jpg
-    https://farm3.staticflickr.com/2911/14536848351_a170545cf5_o.jpg
     https://farm4.staticflickr.com/3868/14536852031_dca23b9944_o.jpg
     https://farm3.staticflickr.com/2900/14517129286_3d9faafe3f_o.jpg
     https://farm6.staticflickr.com/5527/14353665328_b7881151ce_o.jpg
@@ -97,7 +96,6 @@ get %r{/(\d+)/(\d+)} do
     https://farm3.staticflickr.com/2891/11621215786_e928b0de77_o.jpg
     https://farm4.staticflickr.com/3825/10758220115_4c7d99f7f3_o.jpg
     https://farm8.staticflickr.com/7453/10758298496_3892f4660b_o.jpg
-    https://farm8.staticflickr.com/7415/10758267766_c8bffda743_o.jpg
     https://farm6.staticflickr.com/5481/10681496264_6a33e4bfc0_o.jpg
     https://farm8.staticflickr.com/7431/10681499064_9bd32d7776_o.jpg
     https://farm4.staticflickr.com/3695/10681255074_a0dc9c8930_o.jpg
@@ -110,7 +108,6 @@ get %r{/(\d+)/(\d+)} do
     https://farm4.staticflickr.com/3667/10681307496_65637e34bf_o.jpg
     https://farm6.staticflickr.com/5513/10681273905_6ecf1d8624_o.jpg
     https://farm3.staticflickr.com/2886/10681526043_f700e3e597_o.jpg
-    https://farm4.staticflickr.com/3774/10681314546_cab8225579_o.jpg
     https://farm3.staticflickr.com/2809/10681288975_082e57497e_o.jpg
     https://farm4.staticflickr.com/3688/10681351656_b72a6bfbcc_o.jpg
     https://farm4.staticflickr.com/3826/10463777713_4ebd9e6a15_o.jpg
@@ -126,7 +123,6 @@ get %r{/(\d+)/(\d+)} do
     https://farm3.staticflickr.com/2838/10179258373_80434d9280_o.jpg
     https://farm8.staticflickr.com/7458/10179153045_8847c94a40_o.jpg
     https://farm4.staticflickr.com/3822/9456134124_d6d778c1f5_o.jpg
-    https://farm9.staticflickr.com/8403/8748337529_c6aace699e_o.jpg
     https://farm8.staticflickr.com/7453/8718170535_8e7d9a40f5_o.jpg
     https://farm8.staticflickr.com/7389/8718893718_99e6484892_o.jpg
     https://farm9.staticflickr.com/8414/8712005517_7150d31ab2_o.jpg
@@ -151,7 +147,6 @@ get %r{/(\d+)/(\d+)} do
     https://farm8.staticflickr.com/7244/7173827802_5a43a3c7dc_o.jpg
     https://farm6.staticflickr.com/5324/7173811502_b38d3d802c_o.jpg
     https://farm8.staticflickr.com/7232/7173805950_a64c99b2b0_o.jpg
-    https://farm8.staticflickr.com/7067/6961303110_9d3ae18511_o.jpg
     https://farm9.staticflickr.com/8162/6961274190_a7db55741c_o.jpg
     https://farm4.staticflickr.com/3672/9674605489_7296c7f3d5_o.jpg
     https://farm3.staticflickr.com/2829/9677821690_038f010d51_o.jpg
