@@ -47,6 +47,57 @@ get %r{/(\d+)/(\d+)} do
     https://farm4.staticflickr.com/3684/9456136108_d0794e8cea_k.jpg
     https://farm4.staticflickr.com/3822/9456134124_e2a00b6cae_k.jpg
     https://farm8.staticflickr.com/7375/9453353633_89ff6eb819_k.jpg
+    https://farm6.staticflickr.com/5153/14668149303_3c75aedfd5_k.jpg
+    https://farm3.staticflickr.com/2917/14647848682_0355c05117_k.jpg
+    https://farm3.staticflickr.com/2917/14648256175_ff40043ee9_k.jpg
+    https://farm4.staticflickr.com/3886/14461847537_117d321d5d_k.jpg
+    https://farm4.staticflickr.com/3925/14645016611_3f0278d8d8_k.jpg
+    https://farm4.staticflickr.com/3875/14461652899_d272c88177_k.jpg
+    https://farm6.staticflickr.com/5233/14461650129_156943ee43_k.jpg
+    https://farm4.staticflickr.com/3876/14668183563_07afdb3b12_k.jpg
+    https://farm4.staticflickr.com/3922/14625293886_236e191621_k.jpg
+    https://farm6.staticflickr.com/5472/14461669288_46b3944170_k.jpg
+    https://farm3.staticflickr.com/2934/14461662388_1e640d5fcc_k.jpg
+    https://farm4.staticflickr.com/3907/14461655459_dc8213587d_k.jpg
+    https://farm6.staticflickr.com/5567/14647882342_36d9ed8109_k.jpg
+    https://farm3.staticflickr.com/2897/14461599840_86a7703381_k.jpg
+    https://farm3.staticflickr.com/2905/14647888662_a20b0e8931_k.jpg
+    https://farm6.staticflickr.com/5529/14646106034_0a19ea77d9_k.jpg
+    https://farm6.staticflickr.com/5472/14646103814_fb203bdf73_k.jpg
+    https://farm3.staticflickr.com/2934/14461882797_858e36592d_k.jpg
+    https://farm3.staticflickr.com/2916/14648315275_b6de1ef5ae_k.jpg
+    https://farm4.staticflickr.com/3863/14648301385_ea7c2807be_k.jpg
+    https://farm3.staticflickr.com/2900/14646110464_8f567ea6fc_k.jpg
+    https://farm4.staticflickr.com/3822/13587086935_0789635ffc_k.jpg
+    https://farm4.staticflickr.com/3770/13587445414_965562da19_k.jpg
+    https://farm4.staticflickr.com/3809/13210364405_7b3ff05b45_k.jpg
+    https://farm4.staticflickr.com/3808/13208308963_118ff2329f_k.jpg
+    https://farm3.staticflickr.com/2816/12451717145_5a407d3aa0_k.jpg
+    https://farm3.staticflickr.com/2892/12451706855_8c1e03d352_k.jpg
+    https://farm8.staticflickr.com/7317/12452227274_a19e591de1_k.jpg
+    https://farm8.staticflickr.com/7407/12451694725_7a40823ec6_k.jpg
+    https://farm6.staticflickr.com/5520/12452181134_1b1e165153_k.jpg
+    https://farm4.staticflickr.com/3807/12046911863_24ce596d38_k.jpg
+    https://farm6.staticflickr.com/5502/11620831034_c4f4cadaa5_k.jpg
+    https://farm4.staticflickr.com/3825/10758220115_20cd212b0c_k.jpg
+    https://farm8.staticflickr.com/7453/10758298496_71cda2a77a_k.jpg
+    https://farm4.staticflickr.com/3727/10681279516_a789e013cc_k.jpg
+    https://farm4.staticflickr.com/3826/10463777713_4ebd9e6a15_o.jpg
+    https://farm8.staticflickr.com/7315/10463598986_f4ac890ab8_o.jpg
+    https://farm6.staticflickr.com/5542/10179184046_bf75ea5ad0_k.jpg
+    https://farm9.staticflickr.com/8138/10168317595_c418d7784f_k.jpg
+    https://farm9.staticflickr.com/8355/8413205109_0c5cc5376b_k.jpg
+    https://farm9.staticflickr.com/8459/8028753675_73ce08c96c_k.jpg
+    https://farm8.staticflickr.com/7249/7650227434_39b186c1e7_k.jpg
+    https://farm9.staticflickr.com/8026/7650221778_a18e0ce50e_k.jpg
+    https://farm9.staticflickr.com/8248/8506137590_ee3c8a735c_k.jpg
+    https://farm9.staticflickr.com/8248/8506136636_8cb8ec4459_k.jpg
+    https://farm9.staticflickr.com/8247/8497501829_7d13249800_k.jpg
+    https://farm9.staticflickr.com/8377/8497502519_c407219f4e_k.jpg
+    https://farm9.staticflickr.com/8526/8505042149_f3365c1397_k.jpg
+    https://farm9.staticflickr.com/8507/8497503601_c3015f38ae_k.jpg
+    https://farm9.staticflickr.com/8230/8505009859_53de634625_k.jpg
+    https://farm9.staticflickr.com/8097/8569514204_4970140cec_o.jpg
   }
   cache_control :no_store, :no_cache, :must_revalidate
   redirect "#{request.env['rack.url_scheme']}://#{thumb_url(photos.sample, { :width => params[:captures][0], :height => params[:captures][1], :smart => true })}", 303
