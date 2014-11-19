@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>voxholder: vox product team placeholder image generator</title>
+    <style type="text/css">
+    body {
+      color: #333;
+      font-family: "Helvetica Neue", sans-serif;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.5rem;
+      line-height: 1;
+      margin: 1rem 0;
+    }
+    p {
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.5;
+    }
+    img {
+      max-width: 100%;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>voxholder</h1>
+      <p>place a width and height after our url to get a random photo of the vox product team as a placeholder. For example, <code>&lt;img src="<%= request.base_url %>/600/400" /&gt;</code> becomes:</p>
+      <img src="<%= request.base_url %>/600/400" />
+    </div>
+  </body>
+</html>

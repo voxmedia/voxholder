@@ -11,7 +11,7 @@ configure do
 end
 
 get "/" do
-  "It's easy, just use a url like <code>#{request.base_url}/300/200</code> to get a random Vox photo that's 300x200."
+  erb :index
 end
 
 get %r{/(\d+)/(\d+)} do
