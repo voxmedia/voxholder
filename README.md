@@ -1,6 +1,6 @@
 # voxholder
 
-a placeholder image generator that uses photos from our [flickr pool](https://www.flickr.com/groups/sbnation). visit [voxholder.herokuapp.com/](http://voxholder.herokuapp.com/) to check it out.
+a placeholder image generator that uses photos from our [flickr pool](https://www.flickr.com/groups/sbnation). visit [voxholder.herokuapp.com](http://voxholder.herokuapp.com/) to check it out.
 
 ## usage
 
