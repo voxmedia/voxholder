@@ -28,7 +28,6 @@ get %r{/(\d+)/(\d+)} do
     https://farm6.staticflickr.com/5472/14461669288_8ef45d0dbd_o.jpg
     https://farm3.staticflickr.com/2934/14461662388_93bb94868d_o.jpg
     https://farm4.staticflickr.com/3907/14461655459_d679eea2e3_o.jpg
-    https://farm3.staticflickr.com/2934/14646093714_a915cf59fd_o.jpg
     https://farm3.staticflickr.com/2897/14461599840_74ff409a2a_o.jpg
     https://farm3.staticflickr.com/2905/14647888662_e8007ac7cf_o.jpg
     https://farm6.staticflickr.com/5529/14646106034_b307ec555a_o.jpg
