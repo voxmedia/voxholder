@@ -165,6 +165,11 @@ get %r{/(\d+)/(\d+)} do
     https://farm8.staticflickr.com/7121/7107364477_d1da30f2f6_o.jpg
     https://farm3.staticflickr.com/2247/4508121316_2cef211ab0_o.jpg
     https://farm7.staticflickr.com/6204/6129067838_68f3eed410_o.jpg
+    https://farm4.staticflickr.com/3948/15470466187_0d4f8f1440_o.jpg
+    https://farm8.staticflickr.com/7463/15656424665_53b9667309_o.jpg
+    https://farm4.staticflickr.com/3946/15036269103_acf3a40eba_o.jpg
+    https://farm4.staticflickr.com/3936/15470276448_e156d0b11c_o.jpg
+    https://farm6.staticflickr.com/5615/15036263313_9fe0d4fd09_o.jpg
   }
   cache_control :no_store, :no_cache, :must_revalidate
   redirect "#{request.env['rack.url_scheme']}://#{thumb_url(photos.sample, { :width => params[:captures][0], :height => params[:captures][1], :smart => true })}", 303
