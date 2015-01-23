@@ -16,6 +16,10 @@ end
 
 get %r{/(\d+)/(\d+)} do
   photos = %w{
+    https://farm8.staticflickr.com/7554/16152643219_51b34b9596_o.jpg
+    https://farm8.staticflickr.com/7536/16312881956_8aebcc8bd7_o.jpg
+    https://farm9.staticflickr.com/8644/16337948952_aa73bc9ae0_o.jpg
+    https://farm8.staticflickr.com/7578/16337066641_ac1cf05e01_o.jpg
     https://farm6.staticflickr.com/5511/14666635973_53464d4743_o.jpg
     https://farm3.staticflickr.com/2917/14648256175_d39b452ef3_o.jpg
     https://farm3.staticflickr.com/2917/14647848682_01fe3f4660_o.jpg
