@@ -16,6 +16,20 @@ end
 
 get %r{/(\d+)/(\d+)} do
   photos = %w{
+    https://farm9.staticflickr.com/8643/16547246400_11fa4bdedc_o.jpg
+    https://farm9.staticflickr.com/8577/16667464545_15a00c8567_o.jpg
+    https://farm9.staticflickr.com/8613/16666454342_449dd45a34_o.jpg
+    https://farm9.staticflickr.com/8673/16666105981_a46b606cd5_o.jpg
+    https://farm9.staticflickr.com/8661/16666101481_e34ccc6ee1_o.jpg
+    https://farm9.staticflickr.com/8614/16481326979_5463938a06_o.jpg
+    https://farm9.staticflickr.com/8632/16479903168_e7d44141cc_o.jpg
+    https://farm9.staticflickr.com/8651/16641550376_bc340b134e_o.jpg
+    https://farm9.staticflickr.com/8608/16045176994_366595b1eb_o.jpg
+    https://farm9.staticflickr.com/8589/16667477225_c7c854f67b_o.jpg
+    https://farm9.staticflickr.com/8607/16641554876_eb21e36e40_o.jpg
+    https://farm9.staticflickr.com/8615/16460182627_c5a217e98b_o.jpg
+    https://farm9.staticflickr.com/8628/16047549593_83eb35c299_o.jpg
+    https://farm9.staticflickr.com/8663/16047554833_b060ef3f54_o.jpg
     https://farm8.staticflickr.com/7549/16151236488_08bd4c62b1_o.jpg
     https://farm8.staticflickr.com/7554/16152643219_51b34b9596_o.jpg
     https://farm8.staticflickr.com/7536/16312881956_8aebcc8bd7_o.jpg
